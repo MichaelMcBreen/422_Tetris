@@ -1,0 +1,4 @@
+F:\Users\Scott\Documents\Visual Studio 2010\Projects\tetris\tetris\tetrisContent\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\dev\ttocs_Scott-PC\tetris\tetris\tetrisContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\dev\tetris\tetris\tetrisContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Michael\Downloads\tetris-master\tetris-master\tetris\tetrisContent\obj\x86\Debug\tetrisContent.contentprojResolveAssemblyReference.cache
