@@ -9,7 +9,7 @@ using System.Diagnostics;
 
 namespace tetris
 {
-    class Tetronimo
+    public class Tetronimo
     {
         //tetronimo class:  contains information regarding
         //the tetronimo currently in play:  shape, location, etc.

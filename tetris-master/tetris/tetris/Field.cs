@@ -7,7 +7,7 @@ using System.Text;
 
 namespace tetris
 {
-    class Field
+    public class Field
     {
 
         //field class: this contains functions and items that

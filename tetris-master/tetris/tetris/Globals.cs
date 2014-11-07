@@ -10,7 +10,7 @@ using Microsoft.Xna.Framework.Content;
 
 namespace tetris
 {
-    class Globals
+    public class Globals
     {
 
         public struct coords

@@ -10,7 +10,7 @@ using Microsoft.Xna.Framework.Input;
 
 namespace tetris
 {
-    class KBInput
+    public class KBInput
     {    
         //Keyboard Input handler.  Nothing terribly fancy here.
         private KeyboardState prevState, currState;

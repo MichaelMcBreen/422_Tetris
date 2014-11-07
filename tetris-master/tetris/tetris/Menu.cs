@@ -12,7 +12,7 @@ using Microsoft.Xna.Framework.Input;
 
 namespace tetris
 {
-    class Menu
+    public class Menu
     {
 
         //Menu class:  All menus.  Except the instruction screen
@@ -39,7 +39,7 @@ namespace tetris
 
         int returnVal;
         
-        public Menu(ContentManager content)
+        public Menu()
         {
             fadetime = TimeSpan.FromSeconds(0.2);
             
