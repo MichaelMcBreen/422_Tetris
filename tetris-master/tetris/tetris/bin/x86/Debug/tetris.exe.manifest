@@ -100,7 +100,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>EtS5EP/vzkVe1Cm0n1VJGd+3wj8=</dsig:DigestValue>
+        <dsig:DigestValue>g9E/oFR1NF+UXXXy11oUZTEaq/w=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -128,7 +128,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>cFt+9sE98wXTAjsutYDHnnjL0hI=</dsig:DigestValue>
+      <dsig:DigestValue>TN7iiO2HUYeBBgXUTR4pewDf5Og=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Content\menusprite.xnb" size="4283">

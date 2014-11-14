@@ -1,15 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Linq;
+using System.Diagnostics;
 
 using tetris;
 
-//Game1.cs
-//Written by Scott Porcaro, 2011
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Diagnostics;
 namespace TetrisTest
 {
     [TestClass]
@@ -52,6 +48,31 @@ namespace TetrisTest
 
             Assert.IsTrue(field.fieldWidth != (-1 + 2), "Field created with invalid width.");
             Assert.IsFalse(field.fieldHeight != (-1 + Globals.PADDING + 1), "Field freated with invalid height.");
+        }
+
+        [TestMethod]
+        public void CheckPieceValidShapeLocation()
+        {
+            Field field = new Field(10, 20);
+
+            int[,] shape = new int[4, 4];
+            Tetronimo tetronimo = new Tetronimo(1);
+            Globals.coords coords = new Globals.coords();
+            coords.x = 5;
+            coords.y = 0;
+            Assert.IsTrue(field.checkPiece(tetronimo.shape, coords), "Valid Shape and location");
+        }
+        [TestMethod]
+        public void CheckPieceValidShapeInvalidLocation()
+        {
+            Field field = new Field(10, 20);
+
+            int[,] shape = new int[4, 4];
+            Tetronimo tetronimo = new Tetronimo(1);
+            Globals.coords coords = new Globals.coords();
+            coords.x = -5;
+            coords.y = -1;
+            Assert.IsFalse(field.checkPiece(tetronimo.shape, coords), "Valid Shape and Invalid location");
         }
     }
 }
