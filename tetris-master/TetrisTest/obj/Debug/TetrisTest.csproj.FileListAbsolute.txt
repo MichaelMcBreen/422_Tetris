@@ -16,3 +16,39 @@ C:\Users\Josh\Projects\422_Tetris\tetris-master\TetrisTest\bin\Debug\Microsoft.X
 C:\Users\Josh\Projects\422_Tetris\tetris-master\TetrisTest\obj\Debug\TetrisTest.csprojResolveAssemblyReference.cache
 C:\Users\Josh\Projects\422_Tetris\tetris-master\TetrisTest\obj\Debug\TetrisTest.dll
 C:\Users\Josh\Projects\422_Tetris\tetris-master\TetrisTest\obj\Debug\TetrisTest.pdb
+Z:\bhanderson On My Mac\Documents\src\422_Tetris\tetris-master\TetrisTest\bin\Debug\Content\blocksprite.xnb
+Z:\bhanderson On My Mac\Documents\src\422_Tetris\tetris-master\TetrisTest\bin\Debug\Content\blanksprite.xnb
+Z:\bhanderson On My Mac\Documents\src\422_Tetris\tetris-master\TetrisTest\bin\Debug\Content\shadowsprite.xnb
+Z:\bhanderson On My Mac\Documents\src\422_Tetris\tetris-master\TetrisTest\bin\Debug\Content\menusprite.xnb
+Z:\bhanderson On My Mac\Documents\src\422_Tetris\tetris-master\TetrisTest\bin\Debug\Content\font.xnb
+Z:\bhanderson On My Mac\Documents\src\422_Tetris\tetris-master\TetrisTest\bin\Debug\TetrisTest.dll
+Z:\bhanderson On My Mac\Documents\src\422_Tetris\tetris-master\TetrisTest\bin\Debug\TetrisTest.pdb
+Z:\bhanderson On My Mac\Documents\src\422_Tetris\tetris-master\TetrisTest\bin\Debug\tetris.exe
+Z:\bhanderson On My Mac\Documents\src\422_Tetris\tetris-master\TetrisTest\bin\Debug\Microsoft.Xna.Framework.Game.dll
+Z:\bhanderson On My Mac\Documents\src\422_Tetris\tetris-master\TetrisTest\bin\Debug\Microsoft.Xna.Framework.Graphics.dll
+Z:\bhanderson On My Mac\Documents\src\422_Tetris\tetris-master\TetrisTest\bin\Debug\Microsoft.Xna.Framework.dll
+Z:\bhanderson On My Mac\Documents\src\422_Tetris\tetris-master\TetrisTest\bin\Debug\tetris.pdb
+Z:\bhanderson On My Mac\Documents\src\422_Tetris\tetris-master\TetrisTest\bin\Debug\Microsoft.Xna.Framework.Game.xml
+Z:\bhanderson On My Mac\Documents\src\422_Tetris\tetris-master\TetrisTest\bin\Debug\Microsoft.Xna.Framework.Graphics.xml
+Z:\bhanderson On My Mac\Documents\src\422_Tetris\tetris-master\TetrisTest\bin\Debug\Microsoft.Xna.Framework.xml
+Z:\bhanderson On My Mac\Documents\src\422_Tetris\tetris-master\TetrisTest\obj\Debug\TetrisTest.csprojResolveAssemblyReference.cache
+Z:\bhanderson On My Mac\Documents\src\422_Tetris\tetris-master\TetrisTest\obj\Debug\TetrisTest.dll
+Z:\bhanderson On My Mac\Documents\src\422_Tetris\tetris-master\TetrisTest\obj\Debug\TetrisTest.pdb
+C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\TetrisTest\bin\Debug\Content\blocksprite.xnb
+C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\TetrisTest\bin\Debug\Content\blanksprite.xnb
+C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\TetrisTest\bin\Debug\Content\shadowsprite.xnb
+C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\TetrisTest\bin\Debug\Content\menusprite.xnb
+C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\TetrisTest\bin\Debug\Content\font.xnb
+C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\TetrisTest\bin\Debug\TetrisTest.dll
+C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\TetrisTest\bin\Debug\TetrisTest.pdb
+C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\TetrisTest\bin\Debug\tetris.exe
+C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\TetrisTest\bin\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\TetrisTest\bin\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\TetrisTest\bin\Debug\Microsoft.Xna.Framework.dll
+C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\TetrisTest\bin\Debug\tetris.pdb
+C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\TetrisTest\bin\Debug\Microsoft.Xna.Framework.Game.xml
+C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\TetrisTest\bin\Debug\Microsoft.Xna.Framework.Graphics.xml
+C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\TetrisTest\bin\Debug\Microsoft.Xna.Framework.xml
+C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\TetrisTest\obj\Debug\TetrisTest.csprojResolveAssemblyReference.cache
+C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\TetrisTest\obj\Debug\TetrisTest.dll
+C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\TetrisTest\obj\Debug\TetrisTest.pdb

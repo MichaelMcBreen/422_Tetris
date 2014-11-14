@@ -70,6 +70,17 @@ namespace tetris
             listCount = items.Count() - 1;
         }
 
+
+		public int ReturnState()
+		{
+			return selected;
+		}
+
+		public List<string> ReturnItems()
+		{
+			return items;
+		}
+
         private void ResetSelection()
         {
             //resetting the highlight values for instant feedback

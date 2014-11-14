@@ -71,3 +71,33 @@ C:\Users\Josh\Projects\422_Tetris\tetris-master\tetris\tetris\obj\x86\Debug\tetr
 C:\Users\Josh\Projects\422_Tetris\tetris-master\tetris\tetris\obj\x86\Debug\tetris.application
 C:\Users\Josh\Projects\422_Tetris\tetris-master\tetris\tetris\obj\x86\Debug\tetris.exe
 C:\Users\Josh\Projects\422_Tetris\tetris-master\tetris\tetris\obj\x86\Debug\tetris.pdb
+Z:\bhanderson On My Mac\Documents\src\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\Content\blocksprite.xnb
+Z:\bhanderson On My Mac\Documents\src\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\Content\blanksprite.xnb
+Z:\bhanderson On My Mac\Documents\src\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\Content\shadowsprite.xnb
+Z:\bhanderson On My Mac\Documents\src\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\Content\menusprite.xnb
+Z:\bhanderson On My Mac\Documents\src\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\Content\font.xnb
+Z:\bhanderson On My Mac\Documents\src\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\tetris.exe.manifest
+Z:\bhanderson On My Mac\Documents\src\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\tetris.application
+Z:\bhanderson On My Mac\Documents\src\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\tetris.exe
+Z:\bhanderson On My Mac\Documents\src\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\tetris.pdb
+Z:\bhanderson On My Mac\Documents\src\422_Tetris\tetris-master\tetris\tetris\obj\x86\Debug\tetris.csprojResolveAssemblyReference.cache
+Z:\bhanderson On My Mac\Documents\src\422_Tetris\tetris-master\tetris\tetris\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+Z:\bhanderson On My Mac\Documents\src\422_Tetris\tetris-master\tetris\tetris\obj\x86\Debug\tetris.exe.manifest
+Z:\bhanderson On My Mac\Documents\src\422_Tetris\tetris-master\tetris\tetris\obj\x86\Debug\tetris.application
+Z:\bhanderson On My Mac\Documents\src\422_Tetris\tetris-master\tetris\tetris\obj\x86\Debug\tetris.exe
+Z:\bhanderson On My Mac\Documents\src\422_Tetris\tetris-master\tetris\tetris\obj\x86\Debug\tetris.pdb
+C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\Content\blocksprite.xnb
+C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\Content\blanksprite.xnb
+C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\Content\shadowsprite.xnb
+C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\Content\menusprite.xnb
+C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\Content\font.xnb
+C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\tetris.exe.manifest
+C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\tetris.application
+C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\tetris.exe
+C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\tetris.pdb
+C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\tetris\tetris\obj\x86\Debug\tetris.csprojResolveAssemblyReference.cache
+C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\tetris\tetris\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\tetris\tetris\obj\x86\Debug\tetris.exe.manifest
+C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\tetris\tetris\obj\x86\Debug\tetris.application
+C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\tetris\tetris\obj\x86\Debug\tetris.exe
+C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\tetris\tetris\obj\x86\Debug\tetris.pdb

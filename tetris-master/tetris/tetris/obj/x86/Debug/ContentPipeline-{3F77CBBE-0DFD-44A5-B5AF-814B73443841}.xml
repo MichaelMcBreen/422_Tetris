@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Josh\Projects\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\Content\blocksprite.xnb</Output>
-      <Time>2014-11-06T20:41:54.4225849-08:00</Time>
+      <Output>C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\Content\blocksprite.xnb</Output>
+      <Time>2014-11-13T14:37:04-08:00</Time>
     </Item>
     <Item>
       <Source>blanksprite.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Josh\Projects\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\Content\blanksprite.xnb</Output>
-      <Time>2014-11-06T20:41:54.4205849-08:00</Time>
+      <Output>C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\Content\blanksprite.xnb</Output>
+      <Time>2014-11-13T14:37:04-08:00</Time>
     </Item>
     <Item>
       <Source>shadowsprite.png</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Josh\Projects\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\Content\shadowsprite.xnb</Output>
-      <Time>2014-11-06T20:41:54.472588-08:00</Time>
+      <Output>C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\Content\shadowsprite.xnb</Output>
+      <Time>2014-11-13T14:37:04-08:00</Time>
     </Item>
     <Item>
       <Source>menusprite.png</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Josh\Projects\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\Content\menusprite.xnb</Output>
-      <Time>2014-11-06T20:41:54.4335849-08:00</Time>
+      <Output>C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\Content\menusprite.xnb</Output>
+      <Time>2014-11-13T14:37:04-08:00</Time>
     </Item>
     <Item>
       <Source>font.spritefont</Source>
@@ -43,8 +43,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Josh\Projects\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\Content\font.xnb</Output>
-      <Time>2014-11-06T20:41:54.4325866-08:00</Time>
+      <Output>C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\Content\font.xnb</Output>
+      <Time>2014-11-13T14:37:04-08:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -53,10 +53,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Josh\Projects\422_Tetris\tetris-master\tetris\tetrisContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Josh\Projects\422_Tetris\tetris-master\tetris\tetris\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Josh\Projects\422_Tetris\tetris-master\tetris\tetris\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Josh\Projects\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\tetris\tetrisContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\tetris\tetris\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\tetris\tetris\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -85,7 +85,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2014-11-06T20:45:34.9871192-08:00</Value>
+        <Value>2014-11-12T16:12:18.7992444-08:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

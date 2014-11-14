@@ -15,10 +15,12 @@ namespace TetrisTest
     [TestClass]
     public class FieldTests
     {
+
         [TestMethod]
         public void InitWithValidWidthHeight()
         {
             Field field = new Field(10, 20);
+
 
             Assert.IsTrue(field.fieldWidth == (10 + 2), "Field created with incorrect width.");
             Assert.IsTrue(field.fieldHeight == (20 + Globals.PADDING + 1), "Field created with invalid height.");
@@ -29,7 +31,7 @@ namespace TetrisTest
             Field field = new Field(4, -1);
 
             Assert.IsTrue(field.fieldWidth == (4 + 2), "Field created with incorrect width.");
-            Assert.IsTrue(field.fieldHeight != (-1 + Globals.PADDING + 1) , "Field created with invalid height.");
+            Assert.IsFalse(field.fieldHeight != (-1 + Globals.PADDING + 1) , "Field created with invalid height.");
 
 
         }
@@ -38,8 +40,8 @@ namespace TetrisTest
         {
             Field field = new Field(-1, -1);
 
-            Assert.IsTrue(field.fieldWidth != (-1 + 2), "Field created with invalid width.");
-            Assert.IsTrue(field.fieldHeight != (-1 + Globals.PADDING + 1), "Field freated with invalid height.");
+            Assert.IsFalse(field.fieldWidth != (-1 + 2), "Field created with invalid width.");
+            Assert.IsFalse(field.fieldHeight != (-1 + Globals.PADDING + 1), "Field freated with invalid height.");
 
         }
 
@@ -49,7 +51,7 @@ namespace TetrisTest
             Field field = new Field(4, -1);
 
             Assert.IsTrue(field.fieldWidth != (-1 + 2), "Field created with invalid width.");
-            Assert.IsTrue(field.fieldHeight != (-1 + Globals.PADDING + 1), "Field freated with invalid height.");
+            Assert.IsFalse(field.fieldHeight != (-1 + Globals.PADDING + 1), "Field freated with invalid height.");
         }
     }
 }
