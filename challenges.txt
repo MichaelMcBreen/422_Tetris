@@ -1,0 +1,7 @@
+1. Keyboard input
+	The current keyboard input uses a debouncer for much of the code so sending
+	a single key press is not recognized and I have not found a way to simulate
+	a key hold for enough time. The other issue is the game time update settings
+	the way it is implemented the game needs to be running for the menu to be
+	updated, this should be changed as to not depend on things above it.
+
