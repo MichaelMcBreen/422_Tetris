@@ -10,6 +10,8 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Input;
 
+
+
 namespace tetris
 {
     public class Menu
@@ -70,7 +72,33 @@ namespace tetris
             listCount = items.Count() - 1;
         }
 
+        public void fakeInput(Keys key)
+        {
+            Keys[] test = new Keys[1];
+            test[0] = key;
+            KeyboardState newState = Keyboard.GetState();
+            input.setKeyPress(test);
+        }
+        public void testInput()
+        {
+            if (input.WasKeyPressed(Keys.Down, true))
+            {
+                selected++;
+                ResetSelection();
+            }
+            if (input.WasKeyPressed(Keys.Up, true))
+            {
+                selected--;
+                ResetSelection();
+            }
 
+            if (input.WasKeyPressed(Keys.Enter, false))
+            {
+                exit = true;
+                returnVal = selected + 1;
+            }
+            selected = ((selected + listCount) % listCount);
+        }
 		public int ReturnState()
 		{
 			return selected;

@@ -3,6 +3,10 @@ using System.Windows.Forms;
 using tetris;
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Linq;
+using System.Text;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Input;
 
 namespace TetrisTest
 {
@@ -30,7 +34,8 @@ namespace TetrisTest
 			items.Add("Exit Game");
 			tetris.Menu m = new tetris.Menu(items);
 			int currentstate = m.ReturnState();
-			SendKeys.SendWait("{DOWN}");
+            m.fakeInput(Microsoft.Xna.Framework.Input.Keys.Down);
+            m.testInput();
 			Assert.IsTrue(currentstate != m.ReturnState(), "Down arrow Test");
 		}
 	}

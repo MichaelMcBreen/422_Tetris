@@ -101,3 +101,17 @@ C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\tetris\tetris\obj\x86\
 C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\tetris\tetris\obj\x86\Debug\tetris.application
 C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\tetris\tetris\obj\x86\Debug\tetris.exe
 C:\Users\Bryce Handerson\Desktop\422_Tetris\tetris-master\tetris\tetris\obj\x86\Debug\tetris.pdb
+C:\Users\Michael\Documents\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\Content\blocksprite.xnb
+C:\Users\Michael\Documents\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\Content\blanksprite.xnb
+C:\Users\Michael\Documents\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\Content\shadowsprite.xnb
+C:\Users\Michael\Documents\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\Content\menusprite.xnb
+C:\Users\Michael\Documents\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\Content\font.xnb
+C:\Users\Michael\Documents\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\tetris.exe.manifest
+C:\Users\Michael\Documents\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\tetris.application
+C:\Users\Michael\Documents\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\tetris.exe
+C:\Users\Michael\Documents\422_Tetris\tetris-master\tetris\tetris\bin\x86\Debug\tetris.pdb
+C:\Users\Michael\Documents\422_Tetris\tetris-master\tetris\tetris\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Michael\Documents\422_Tetris\tetris-master\tetris\tetris\obj\x86\Debug\tetris.exe.manifest
+C:\Users\Michael\Documents\422_Tetris\tetris-master\tetris\tetris\obj\x86\Debug\tetris.application
+C:\Users\Michael\Documents\422_Tetris\tetris-master\tetris\tetris\obj\x86\Debug\tetris.exe
+C:\Users\Michael\Documents\422_Tetris\tetris-master\tetris\tetris\obj\x86\Debug\tetris.pdb

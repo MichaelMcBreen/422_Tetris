@@ -39,5 +39,13 @@ namespace tetris
             return false;
         }
 
+        public void setKeyPress(Keys[] keys)
+        {
+            KeyboardState keyBoard = new KeyboardState(keys);
+            TimeSpan timeSpan = new TimeSpan(0,0,0);
+            GameTime time = new GameTime(timeSpan, timeSpan);
+            this.UpdateWithNewState(keyBoard, time);
+           // currentTime += 300;
+        }
     }
 }

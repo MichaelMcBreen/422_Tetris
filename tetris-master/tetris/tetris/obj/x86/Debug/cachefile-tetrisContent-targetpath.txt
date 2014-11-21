@@ -1,2 +1,0 @@
-Content\blocksprite.xnb
-Content\font.xnb

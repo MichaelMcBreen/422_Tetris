@@ -5,3 +5,7 @@
 	the way it is implemented the game needs to be running for the menu to be
 	updated, this should be changed as to not depend on things above it.
 
+	Update- Tke keyboard interupt class depends on the use of Keyboard state and game time both of which are part of XNA and we can not see.
+	To get around this I wrote a test function into keyboard input that allows us to set a keyboard state however it does not change what keys are pressed on the keyboard (this is a bit confusing but i can set the keyboard state of the input class but if KeyboardState newState = Keyboard.GetState(); is called is will return what keys are pressed on the physical keyboard).
+
+	Also the menu update grabs phyical keyboard so i wrote a test function without that logic.
