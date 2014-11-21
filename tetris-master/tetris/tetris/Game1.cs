@@ -85,6 +85,29 @@ namespace tetris
             Globals.graphics.PreferredBackBufferHeight = 768;
         }
 
+		public void init()
+		{
+			this.Initialize();
+		}
+		public List<string> getPausedItems()
+		{
+			return pausedItems;
+		}
+
+		public List<string> getMainMenuItems()
+		{
+			return mainMenuItems;
+		}
+
+		public List<string> getGameOverItems()
+		{
+			return gameOverItems;
+		}
+
+		public List<string> getInstructionItems()
+		{
+			return instructionItems;
+		}
         protected override void Initialize()
         {
             //this is where I'd open any localization files and input data for the menus
@@ -133,6 +156,14 @@ namespace tetris
 
             base.Initialize();
         }
+		public Globals.coords getNextLocation()
+		{
+			return nextLocation;
+		}
+		public Globals.coords getHeldLocation()
+		{
+			return heldLocation;
+		}
 
         protected override void LoadContent()
         {
