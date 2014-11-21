@@ -32,9 +32,29 @@ namespace tetris
 
         public Field(int w = Globals.FIELD_WIDTH, int h = Globals.FIELD_HEIGHT)
         {
-            //add two to width, one to height for border (left side, right side, bottom)
-            this.width = w + 2;
-            this.height = h + Globals.PADDING + 1;
+            if (w <= 0)
+            {
+                // Minimum width of 1
+                //add two to width for border (left side, right side)
+                this.width = 1 + 2;
+            }
+            else
+            {
+                //add two to width for border (left side, right side)
+                this.width = w + 2;
+            }
+            
+            if (h <= 0)
+            {
+                //add one to height for border (bottom)
+                this.height = 1 + Globals.PADDING + 1;
+            }
+            else
+            {
+                //add one to height for border (bottom)
+                this.height = h + Globals.PADDING + 1;
+            }
+            
             field = new int[height,width];
 
             //add border numbers (9) to left most and right most edges
@@ -91,6 +111,13 @@ namespace tetris
         {
             int tempX = location.x;
             int tempY = location.y;
+
+            // Invalid Location (must be positive and less than height, width)
+            if (location.x < -1 || location.x > this.width)
+                return false;
+            if (location.y < -1 || location.y > this.height)
+                return false;
+
             //collision/bounds checking
             for (int i = 0; i < Globals.PIECE_HEIGHT; i++)
             {
