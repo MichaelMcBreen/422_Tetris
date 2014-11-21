@@ -115,3 +115,4 @@ C:\Users\Michael\Documents\422_Tetris\tetris-master\tetris\tetris\obj\x86\Debug\
 C:\Users\Michael\Documents\422_Tetris\tetris-master\tetris\tetris\obj\x86\Debug\tetris.application
 C:\Users\Michael\Documents\422_Tetris\tetris-master\tetris\tetris\obj\x86\Debug\tetris.exe
 C:\Users\Michael\Documents\422_Tetris\tetris-master\tetris\tetris\obj\x86\Debug\tetris.pdb
+C:\Users\Michael\Documents\422_Tetris\tetris-master\tetris\tetris\obj\x86\Debug\tetris.csprojResolveAssemblyReference.cache
