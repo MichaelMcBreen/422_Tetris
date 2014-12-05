@@ -182,7 +182,18 @@ namespace tetris
         {
             //blank, for now.
         }
-
+		public int getHeldPiece()
+		{
+			return heldPiece;
+		}
+		public void setHeldPiece(int p)
+		{
+			heldPiece = p;
+		}
+		public int getCurrPiece()
+		{
+			return currPiece.type;
+		}
         //Maybe separate out Holding stuff to another function?
         public void DispatchPiece(bool holding = false)
         {
