@@ -72,6 +72,13 @@ namespace tetris
         {
             //adds the tetronimo object to the field array
             //similar to checkPiece, this performs the actual write
+
+            // Invalid Location (must be positive and less than height, width)
+            if (location.x < -1 || location.x > this.width)
+                return false;
+            if (location.y < -1 || location.y > this.height)
+                return false;
+
             int tempX = location.x;
             for (int i = 0; i < Globals.PIECE_HEIGHT; i++)
             {
@@ -109,14 +116,14 @@ namespace tetris
 
         public bool checkPiece(int[,] shape, Globals.coords location)
         {
-            int tempX = location.x;
-            int tempY = location.y;
-
             // Invalid Location (must be positive and less than height, width)
             if (location.x < -1 || location.x > this.width)
                 return false;
             if (location.y < -1 || location.y > this.height)
                 return false;
+
+            int tempX = location.x;
+            int tempY = location.y;
 
             //collision/bounds checking
             for (int i = 0; i < Globals.PIECE_HEIGHT; i++)

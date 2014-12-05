@@ -21,6 +21,7 @@ namespace TetrisTest
             Assert.IsTrue(field.fieldWidth == (10 + 2), "Field created with incorrect width.");
             Assert.IsTrue(field.fieldHeight == (20 + Globals.PADDING + 1), "Field created with invalid height.");
         }
+
         [TestMethod]
         public void InitWithValidWidthInvalidHeight()
         {
@@ -31,6 +32,7 @@ namespace TetrisTest
 
 
         }
+
         [TestMethod]
         public void InitWithValidHeightInvalidWidth()
         {
@@ -55,24 +57,77 @@ namespace TetrisTest
         {
             Field field = new Field(10, 20);
 
-            int[,] shape = new int[4, 4];
             Tetronimo tetronimo = new Tetronimo(1);
             Globals.coords coords = new Globals.coords();
             coords.x = 5;
             coords.y = 0;
             Assert.IsTrue(field.checkPiece(tetronimo.shape, coords), "Valid Shape and location");
         }
+
         [TestMethod]
         public void CheckPieceValidShapeInvalidLocation()
         {
             Field field = new Field(10, 20);
 
-            int[,] shape = new int[4, 4];
             Tetronimo tetronimo = new Tetronimo(1);
             Globals.coords coords = new Globals.coords();
             coords.x = -5;
             coords.y = -1;
             Assert.IsFalse(field.checkPiece(tetronimo.shape, coords), "Valid Shape and Invalid location");
+        }
+
+        [TestMethod]
+        public void PlacePieceValidShapeLocation()
+        {
+            Field field = new Field(10, 20);
+
+            Tetronimo tetronimo = new Tetronimo(1);
+            Globals.coords coords = new Globals.coords();
+            coords.x = 5;
+            coords.y = 0;
+            Assert.IsTrue(field.placePiece(tetronimo.shape, coords), "Valid Shape and location");
+        }
+
+        [TestMethod]
+        public void PlacePieceValidShapeInvalidLocation()
+        {
+            Field field = new Field(10, 20);
+
+            Tetronimo tetronimo = new Tetronimo(1);
+            Globals.coords coords = new Globals.coords();
+            coords.x = -5;
+            coords.y = -1;
+            Assert.IsFalse(field.placePiece(tetronimo.shape, coords), "Valid Shape and Invalid location");
+        }
+
+        [TestMethod]
+        public void GetHardDropEmptyFieldValidShapeLocation()
+        {
+            Field field = new Field(10, 20);
+
+            Tetronimo tetronimo = new Tetronimo(1);
+            Globals.coords coords = new Globals.coords();
+            coords.x = 5;
+            coords.y = 0;
+            Globals.coords drop_loc = new Globals.coords();
+            drop_loc.x = 5;
+            drop_loc.y = 20;
+            Assert.IsTrue(field.getHardDrop(tetronimo.shape, coords).x == drop_loc.x, "Invalid Hard Drop location. (x)");
+            Assert.IsTrue(field.getHardDrop(tetronimo.shape, coords).y == drop_loc.y, "Invalid Hard Drop location. (y)");
+        }
+
+        [TestMethod]
+        public void GetHardDropEmptyFieldValidShapeInvalidLocation()
+        {
+            Field field = new Field(10, 20);
+
+            Tetronimo tetronimo = new Tetronimo(1);
+            Globals.coords coords = new Globals.coords();
+            coords.x = -5;
+            coords.y = -1;
+            // Should return the same location as it supplies.
+            Assert.IsTrue(field.getHardDrop(tetronimo.shape, coords).x == coords.x, "Invalid Hard Drop location. (x)");
+            Assert.IsTrue(field.getHardDrop(tetronimo.shape, coords).y == coords.y, "Invalid Hard Drop location. (y)");
         }
     }
 }
