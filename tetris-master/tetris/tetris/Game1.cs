@@ -383,6 +383,15 @@ namespace tetris
             }
         }
 
+        public bool ValidMoveTest(direction dir, int x, int y, int type)
+        {
+            currPiece = new Tetronimo(type);
+            currPiece.location.x = x;
+            currPiece.location.y = y;
+
+            return ValidMove(dir);
+        }
+
         private bool ValidMove(direction dir)
         {
             Globals.coords tempcoord = currPiece.location;

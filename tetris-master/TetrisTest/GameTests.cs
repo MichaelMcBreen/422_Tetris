@@ -72,5 +72,28 @@ namespace TetrisTest
 			Assert.IsTrue(g.getHeldLocation().x.Equals(held.x));
 			Assert.IsTrue(g.getHeldLocation().y.Equals(held.y));
 		}
+
+        [TestMethod]
+		public void MovePieceDownValid()
+        {
+            Game1 g = new Game1();
+            g.init();
+            Assert.IsTrue(g.ValidMoveTest(direction.DOWN, 1, 1, 1));
+        }
+
+        [TestMethod]
+        public void MovePieceLeftValid()
+        {
+            Game1 g = new Game1();
+            g.init();
+            Assert.IsTrue(g.ValidMoveTest(direction.LEFT, 1, 1, 1));
+        }
+        [TestMethod]
+        public void MovePieceLeftInValid()
+        {
+            Game1 g = new Game1();
+            g.init();
+            Assert.IsFalse(g.ValidMoveTest(direction.LEFT, 0, 1, 1));
+        }
 	}
 }
