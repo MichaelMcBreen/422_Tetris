@@ -15,3 +15,5 @@
 	In game1 there is a private function ValidMove. This really needs to be at least two functions as it is used to check if a piece location will be valid and then moves it. There should be a function to check if a move if valid and a function to move a piece.
 	
 	I do not understand the types for Tetronimo. 
+	
+	A challenge our group faced that has nothing to do with the way the game was put together was dealing with how to test graphics. As this is a video game it is important to make sure the game looks as it should but we were unable to verify this from automated tests. 
