@@ -129,5 +129,13 @@ namespace TetrisTest
             Assert.IsTrue(field.getHardDrop(tetronimo.shape, coords).x == coords.x, "Invalid Hard Drop location. (x)");
             Assert.IsTrue(field.getHardDrop(tetronimo.shape, coords).y == coords.y, "Invalid Hard Drop location. (y)");
         }
+
+        [TestMethod]
+        public void CheckLinesEmpty()
+        {
+            Field field = new Field(10, 20);
+
+            Assert.IsTrue(field.checkLines() == 0, "Unexpected return value.");
+        }
     }
 }
