@@ -95,5 +95,33 @@ namespace TetrisTest
             g.init();
             Assert.IsFalse(g.ValidMoveTest(direction.LEFT, 0, 1, 1));
         }
+        [TestMethod]
+        public void MoveShape2RightValid()
+        {
+            Game1 g = new Game1();
+            g.init();
+            Assert.IsTrue(g.ValidMoveTest(direction.RIGHT, 0, 1, 2));
+        }
+        [TestMethod]
+        public void MoveShape3RightValid()
+        {
+            Game1 g = new Game1();
+            g.init();
+            Assert.IsTrue(g.ValidMoveTest(direction.RIGHT, 4, 1, 3));
+        }
+        [TestMethod]
+        public void MoveShape2RightInValid()
+        {
+            Game1 g = new Game1();
+            g.init();
+            Assert.IsFalse(g.ValidMoveTest(direction.RIGHT, 12,1, 2));
+        }
+        [TestMethod]
+        public void MoveShape3RightInValid()
+        {
+            Game1 g = new Game1();
+            g.init();
+            Assert.IsFalse(g.ValidMoveTest(direction.RIGHT, 12, 1, 3));
+        }
 	}
 }
